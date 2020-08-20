@@ -1,0 +1,17 @@
+@mixin font($name) {
+  @if $name == 'bebas-regular' {
+    font-family: 'Bebas-Regular', 'Arial', 'sans-serif';
+    font-weight: 400;
+  }
+
+  @if $name == 'bebas-bold' {
+    font-family: 'Bebas-Bold', 'Arial', 'sans-serif';
+    font-weight: 700;
+  }
+
+  @if $name == 'opensans-light' {
+    font-family: 'OpenSans-Light', 'Arial', 'sans-serif';
+    font-weight: 300;
+  }
+
+}

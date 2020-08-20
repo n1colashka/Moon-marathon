@@ -1,0 +1,14 @@
+.footer {
+    @include font('opensans-light');
+    text-align: center;
+    font-size: 13px;
+    line-height: 22px;
+    background-color: #060e1b;
+    color: rgba(#fff, .1);
+    padding: 25px;
+
+    &__text {
+        max-width: 730px;
+        margin: 0 auto;
+    }
+}

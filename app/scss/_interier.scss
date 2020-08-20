@@ -1,0 +1,72 @@
+.interier {
+    background: url('../images/stars-bg.png') center no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    padding: 150px 0;
+
+    // Swiper 
+    .swiper-button-next,
+    .swiper-button-prev {
+        right: auto;
+        left: 0;
+    }
+
+    .swiper-pagination.swiper-pagination-fraction {
+        top: auto;
+        left: -183px;
+        bottom: 50px;
+        
+    }
+
+    .swiper-button-prev {
+        left: 170px;
+        right: auto;
+        top: auto;
+        bottom: 250px;
+
+
+        &::after {
+            transform: rotate(180deg);
+        }
+    }
+
+    .swiper-button-next {
+        right: auto;
+        left: 220px;
+        top: auto;
+        bottom: 202px;
+    }
+}
+
+
+.interier-slider {
+    height: 650px;
+
+    &__item {
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+
+    &__inner {
+        padding-top: 40px;
+        padding-left: 100px;
+        height: 100%;
+
+    }
+
+    &__info {
+        max-width: 500px;
+    }
+
+    &__subtitle {
+    }
+
+    &__title {
+    }
+
+    &__btn-wrapper {
+    }
+
+    &__btn {
+    }
+}

@@ -1,0 +1,36 @@
+.region {
+    background: url('../images/stars-bg.png') center no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    padding-top: 80px;
+
+}
+
+.region-slider {
+    height: 650px;
+
+    &__item {
+        background-repeat: no-repeat;
+        background-position: top left;
+        // background-size: cover;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 195px;
+        height: 100%;
+    }
+
+    &__info {
+        max-width: 390px;
+    }
+
+    &__subtitle {}
+
+    &__title {
+        margin-bottom: 75px;
+    }
+
+}

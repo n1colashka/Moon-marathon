@@ -1,0 +1,29 @@
+.apartments {
+    padding: 100px 0;
+
+    &__inner {
+        display: flex;
+        justify-content: flex-end;
+        background: url('../images/last.png') center no-repeat;
+        background-size: cover;
+        background-position: revert;
+        min-height: 700px;
+    }
+
+    &__info {
+        max-width: 500px;
+        padding: 100px;
+    }
+
+    &__title {
+        margin-bottom: 75px;
+    }
+
+    &__btn {
+        background: linear-gradient(to right, rgba(0,146,208,1) 0%, rgba(11,40,109,1) 100%);
+        border: none;
+        color: #000000;
+        min-width: 390px;
+    }
+}
+
